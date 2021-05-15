@@ -1,5 +1,11 @@
 # Predicting Who Lives and Dies on the Titanic
 
+- [Predicting Who Lives and Dies on the Titanic](#predicting-who-lives-and-dies-on-the-titanic)
+	- [Data Set](#data-set)
+	- [Data Pre-Processing](#data-pre-processing)
+	- [Model](#model)
+	- [Results](#results)
+
 On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
 
 While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
@@ -12,13 +18,13 @@ The data set for this project is from Kaggle's Titanic Machine Learning Competit
 
 https://www.kaggle.com/c/titanic/data
 
-All of the passengers of the Titanic are split up into two data sets. 
+All of the passengers of the Titanic are split up into two data sets:
 - A training set which indicates whether the passenger survives 
 - A test set containing different passengers with no label for survival
 
 For each passenger, we are given the following data about them:
 - Ticket class (1st, 2nd, or 3rd)
-- Sex (Male or Female)
+- Sex (male or female)
 - Age (in years)
 - Number of siblings or spouses aboard the Titanic
 - Number of parents or children aboard the Titanic
@@ -27,11 +33,11 @@ For each passenger, we are given the following data about them:
 - Cabin number
 - Port of embarkation (Cherbourg, Queenstown, or Southampton)
 
-## Data Pre Processing
+## Data Pre-Processing
 
-Some of the data given in the data set is immediately usable, but many other categories require some pre processing. Pre processing includes handling missing values, and converting text data. 
+Some of the data given in the data set is immediately usable, but many other categories require some pre-processing. Pre-processing includes handling missing values, and converting text data. 
 
-For further details on how I handled the data pre processing, please take a look at the notebook file. 
+For further details on how I handled the data pre-processing, please take a look at the notebook file. 
 
 ## Model
 
@@ -43,7 +49,7 @@ There are many possible approaches to solve a simple binary classification probl
 - Gradient Boosted Trees
 - Deep Neural Network
 
-Since I have been practicing deep neural networks with TensorFlow, I decided to build a simple densely connected binary classification neural network model. 
+Since I have been practicing deep neural networks with TensorFlow, I decided to build a simple densely connected binary classification neural network. 
 
 Here is a summary of the model as given by `model.summary()`.
 
