@@ -10,7 +10,7 @@ On April 15, 1912, during her maiden voyage, the widely considered “unsinkable
 
 While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
 
-In this project, I built a dense binary classification neural network to predict whether each passenger lives or dies, based on some given info. 
+In this project, I built a dense binary classification neural network to predict whether each passenger on the Titanic lived or died, based on some given info about each passenger.
 
 ## Data Set
 
