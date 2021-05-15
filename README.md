@@ -68,4 +68,4 @@ _________________________________________________________________
 
 The goal of this project was to beat the baseline of 76.5%, which is the accuracy if one predicts that all females live and all males die. 
 
-After trying different configurations of hyper parameters, I arrived at a final accuracy of 77.3%. This does manage to beat out the baseline, although not by much. 
+After trying different configurations of hyper parameters, I arrived at a final accuracy of 77.8%. This does manage to beat out the baseline, although not by much. 
