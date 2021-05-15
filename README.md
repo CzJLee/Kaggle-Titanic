@@ -48,15 +48,15 @@ Since I have been practicing deep neural networks with TensorFlow, I decided to 
 Here is a summary of the model as given by `model.summary()`.
 
 ```
-Model: "sequential_1"
+Model: "sequential"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
-dense_3 (Dense)              (None, 64)                704       
+dense (Dense)                (None, 64)                704       
 _________________________________________________________________
-dense_4 (Dense)              (None, 64)                4160      
+dense_1 (Dense)              (None, 64)                4160      
 _________________________________________________________________
-dense_5 (Dense)              (None, 1)                 65        
+dense_2 (Dense)              (None, 1)                 65        
 =================================================================
 Total params: 4,929
 Trainable params: 4,929
@@ -68,3 +68,4 @@ _________________________________________________________________
 
 The goal of this project was to beat the baseline of 76.5%, which is the accuracy if one predicts that all females live and all males die. 
 
+After trying different configurations of hyper parameters, I arrived at a final accuracy of 77.3%. This does manage to beat out the baseline, although not by much. 
